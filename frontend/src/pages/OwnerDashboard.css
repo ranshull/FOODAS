@@ -1,0 +1,95 @@
+.owner-dashboard h1 {
+  font-size: 1.5rem;
+  color: #f8fafc;
+  margin-bottom: 1rem;
+}
+
+.owner-loading,
+.owner-error {
+  color: #94a3b8;
+  padding: 2rem;
+}
+
+.owner-error {
+  color: #fca5a5;
+}
+
+.owner-card {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.owner-card h2 {
+  font-size: 1.25rem;
+  color: #f8fafc;
+  margin: 0 0 0.75rem;
+}
+
+.owner-card p {
+  margin: 0.35rem 0;
+  color: #e2e8f0;
+  font-size: 0.95rem;
+}
+
+.owner-card a {
+  color: #38bdf8;
+}
+
+.owner-status {
+  font-weight: 600;
+}
+
+.owner-status.active { color: #22c55e; }
+.owner-status.suspended { color: #f87171; }
+
+.owner-meta {
+  font-size: 0.85rem;
+  color: #64748b !important;
+  margin-top: 0.75rem !important;
+}
+
+.owner-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.owner-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.owner-btn-edit {
+  background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%);
+  color: #fff;
+}
+
+.owner-btn-photos {
+  background: rgba(56, 189, 248, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #38bdf8;
+}
+
+.owner-btn-view {
+  background: transparent;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  color: #94a3b8;
+}
+
+.owner-btn:hover {
+  opacity: 0.9;
+}
+
+.owner-intro {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
